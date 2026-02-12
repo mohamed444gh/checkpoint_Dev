@@ -1,0 +1,176 @@
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python (master)
+$ git clone https://github.com/mohamed444gh/checkpoint_Dev.git
+Cloning into 'checkpoint_Dev'...
+warning: You appear to have cloned an empty repository.
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python (master)
+$ cd chekpoint_Dev
+bash: cd: chekpoint_Dev: No such file or directory
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python (master)
+$ cd checkpoint_Dev
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ mkdir learn_git
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ ls
+learn_git/
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ git add learn_git 
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ git commit 
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ git commit 
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev (main)
+$ cd learn_git
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ touch third.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ add third.txt
+bash: add: command not found
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git add third.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git commit -m "adding third"
+[main (root-commit) 375cdc4] adding third
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 learn_git/third.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 257 bytes | 128.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mohamed444gh/checkpoint_Dev.git
+ * [new branch]      main -> main
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git log
+commit 375cdc47a54ee2c2a2ac1dcedcae7aa28b233904 (HEAD -> main, origin/main)
+Author: mohamed <med.barhoumi258@gmail.com>
+Date:   Thu Feb 12 10:01:26 2026 +0100
+
+    adding third
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ touch fourth.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git add fourth.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git commit -m "adding fourth"
+[main 9f2ee65] adding fourth
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 learn_git/fourth.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 143.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mohamed444gh/checkpoint_Dev.git
+   375cdc4..9f2ee65  main -> main
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ rm third.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git add .
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git commit -m "romoving third"
+[main 7caa0d9] romoving third
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 learn_git/third.txt
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mohamed444gh/checkpoint_Dev.git
+   9f2ee65..7caa0d9  main -> main
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git log
+commit 7caa0d9449f8854777e9fa218d64bbf67d4ae2b4 (HEAD -> main, origin/main)
+Author: mohamed <med.barhoumi258@gmail.com>
+Date:   Thu Feb 12 10:06:10 2026 +0100
+
+    romoving third
+
+commit 9f2ee65fb3a9e9f8ec2e00710ef83889574bd5ac
+Author: mohamed <med.barhoumi258@gmail.com>
+Date:   Thu Feb 12 10:04:41 2026 +0100
+
+    adding fourth
+
+commit 375cdc47a54ee2c2a2ac1dcedcae7aa28b233904
+Author: mohamed <med.barhoumi258@gmail.com>
+Date:   Thu Feb 12 10:01:26 2026 +0100
+
+    adding third
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=mohamed
+user.email=med.barhoumi258@gmail.com
+alias.cm=commit -m
+core.pager=cat
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/mohamed444gh/checkpoint_Dev.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+medba@asus MINGW64 ~/OneDrive/Desktop/GI11/python/checkpoint_Dev/learn_git (main)
+$ git config --global --list
+user.name=mohamed
+user.email=med.barhoumi258@gmail.com
+alias.cm=commit -m
+core.pager=cat
