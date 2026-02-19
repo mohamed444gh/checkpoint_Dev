@@ -1,0 +1,53 @@
+nav div div ul {
+   position: relative !important;
+   left: 70% !important;
+}
+.hero button {
+    position: relative;
+    left: 680px;
+    top: 450px;
+    background-color:brown;
+    border-radius: 15px;
+    width: 50px;
+    height: 200px;
+    
+}
+.hero
+     { background-image: url(https://blog-imprimerie-en-ligne.com/wp-content/uploads/2013/09/Fotolia_46853289_Subscription_XXL-copie.png);
+        height: 900px;
+        width: 90%;
+     }
+.reset {display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+h2 {
+    
+    color: wheat;
+}
+.about {
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact form {
+
+}
+.contact .mssg {
+    display: flex;
+    flex-direction: column;
+ position: relative;
+    top: 70px; 
+}
+footer {display: flex;
+    justify-content: space-evenly;
+    position: relative;
+top: 100px;
+     align-items: center; 
+}
+h1{position: relative;
+    top: 610px;
+    font-size: 5em;
+    left: 207px;
+}
