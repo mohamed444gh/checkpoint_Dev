@@ -1,0 +1,100 @@
+nav div div ul {
+   position: relative !important;
+   left: 50% !important;
+}
+nav div h1{
+    position: relative !important;
+    left: 1% !important;
+}
+nav div div ul li {
+    border: white !important;
+   padding-left: 32px !important;
+}
+.photo {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px 250px ;
+    justify-self: center;
+    row-gap: 6px;
+    column-gap: 10px;
+    align-items: end;
+}
+.photo div{background-color: blue;}
+.photo .col1_1 { 
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.photo .col1_2 { 
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+.photo .col1_3 { 
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.photo .col2_1 { 
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.photo .col2_2 { 
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.photo .col2_3 { 
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#contact .cord,.mssg{
+    display: flex;
+    justify-content: center;
+    
+    /* flex-direction: column; */
+
+} 
+#contact .cord label {
+    border:white;
+    margin: 10px;
+}
+#contact .send{
+    position: relative;
+    left: 49%;
+}
+h3 {
+   color: wheat !important;
+   position: relative;
+   left: 3%;
+}
+button{
+    border:rgb(253, 250, 249) solid 6px;
+    background-color: rgb(0, 0, 18);
+    color: white;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+footer {display: flex;
+    justify-content: space-evenly;
+    position: relative;
+top: 100px;
+     align-items: center; 
+}
+h5 {
+    color: aqua !important;
+    position: relative;
+    left: 15%;
+}
+.about{
+    display: grid;
+    grid-template-columns: 350px;
+    position: relative;
+    left: 20%;
+
+}
+.about img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    row-gap: 15px;
+    column-gap: 15px;
+}
