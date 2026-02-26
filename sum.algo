@@ -1,0 +1,46 @@
+//--------------------------------------------------partie 1:------------------------------------------------------------------//
+
+ALGORITHM summe
+VAR
+    tab1:tableau_de INTEGER=[2,5,3,6,74,2,23]
+    tab2:tableau_de INTEGER=[3,5,24,545,9,7,0,4,45]
+    sum,i,j:INTEGER=0
+BEGIN
+   for i from 1 tab1.lenght
+        j=0
+        tanque (j<=tab2.lenght)
+           if (tab1[i]==tab2[j])
+              break
+           else
+              j=j+1
+           end_if
+        end_tanque
+        if (j==tab2.lenght)
+          sum=sum+tab[i]
+        end_if
+    end_for
+END
+
+
+//---------------------------------------------------partie2 2:----------------------------------------------------------------------//
+PROCEDURE produit_scaler(v1:tableau_de INTEGER,v2:tableau_de INTEGER )
+VAR
+    ps,i,j:INTEGER=0
+BEGIN
+    for i from 0 to v1.lenght
+       for j from 0 to  v2.lenght
+           if( i == j )
+               ps=ps+(v1[i]*v2[j])
+            end_if
+        end_for
+    end_for
+END
+ALGORITHM produit_scaler
+VAR
+   ps:integer=0
+   v1:tableau_de integer=[2,4,1]
+   v2:tableau_de integer=[6,3,1]
+BEGIN
+   produit_scaler(v1,v2)
+
+END
